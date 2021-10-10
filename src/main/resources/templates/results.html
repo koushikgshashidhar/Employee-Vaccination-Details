@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EVD Results</title>
+<style>
+
+body {
+    box-sizing: border-box;
+    background: whitesmoke;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    max-width: 1000px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background: #ffffff;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+.xoverflow {
+    width: 100%;
+}
+header {
+    height: 3rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: block;
+    padding: 0 0 1.5rem 0;
+    border-bottom: 1px solid #f9f9f9;
+    background: #ffffff;
+}
+.websitename {
+	padding: 6px;
+	font-size: 2.4rem;
+	text-align: center;
+}
+.vacstatus {
+	padding: 6px;
+	font-size: 2.6rem;
+	float: right;
+}
+footer {
+    height: 2rem;
+    background: white;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-top: 1px solid #f9f9f9;
+}
+footer div {
+    padding: 0.4rem 0;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 500px;
+    padding: 2rem 0;
+    height : 100%;
+    background: #ffffff;
+}
+.centered {
+    display: flex;
+    justify-content: space-around;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="websitename">EVD Results</div>
+<!--div class="vacstatus">Partially vaccinated</div-->
+</header>
+
+<main>
+<h1 style="text-align: center;">Employee List</h1>
+<div class="xoverflow">
+<table>
+  <tbody><tr>
+    <th>Name</th>
+    <th>Vaccination Status</th>
+  </tr>
+  <tr>
+    <td>Zuckerberg</td>
+    <td>Two Dose</td>
+  </tr>
+  <tr>
+    <td>Koushik</td>
+    <td>One Dose</td>
+  </tr>
+  <tr>
+    <td>Steve</td>
+    <td>Two Dose</td>
+  </tr>
+  <tr>
+    <td>Satya</td>
+    <td>Not vaccinated</td>
+  </tr>
+</tbody></table>
+</div>
+</main>
+
+<footer>
+<div>&copy; EVD all rights reserved.</div>
+</footer>
+
+</body>
+</html>
